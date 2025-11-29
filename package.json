@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-"scripts": {
-  "start": "node app.js --host localhost --port 3000 --cache cache",
-  "dev": "nodemon app.js --host localhost --port 3000 --cache cache"
-},
+  "scripts": {
+    "start": "node app.js --host localhost --port 3000 --cache cache",
+    "dev": "nodemon app.js --host localhost --port 3000 --cache cache"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Davyd2133/backend-course-2025-6.git"
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/Davyd2133/backend-course-2025-6#readme",
   "dependencies": {
     "commander": "^14.0.2",
+    "express": "^5.1.0",
     "superagent": "^10.2.3"
   },
   "devDependencies": {
